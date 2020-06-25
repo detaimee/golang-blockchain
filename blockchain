@@ -8,6 +8,7 @@ type Block struct {
 	Hash     []byte
 	Data     []byte
 	PrevHash []byte
+	Nonce    int
 }
 
 func CreateBlock(data string, prevHash []byte) *Block {
