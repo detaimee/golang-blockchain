@@ -10,3 +10,6 @@
 
 
 > go run main.go add -block "send 10 BTC to Jackie"
+
+
+> go run main.go print
