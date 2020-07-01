@@ -2,9 +2,10 @@
 
 <pre>
 
-**>go run main.go createwallet**
+>go run main.go createwallet
 New address is: 1KdA3MrFGjXHM5pWueiPQRDaryfUXFQxGx
 
+<hr>
 
 **> go run main.go createwallet**
 New address is: 1McyaF8F7KUGUSagUntQfsTWPvUe1Mqiqg
