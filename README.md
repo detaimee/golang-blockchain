@@ -1,5 +1,6 @@
 # golang-blockchain
 
+<pre>
 >go run main.go createwallet
 New address is: 1KdA3MrFGjXHM5pWueiPQRDaryfUXFQxGx
 
@@ -96,3 +97,5 @@ PoW: true
        Script: e2304c9ad500db612635c04b16454b501622969d
 
 badger 2020/06/30 17:28:26 INFO: Got compaction priority: {level:0 score:1.73 dropPrefix:[]}
+
+</pre>
