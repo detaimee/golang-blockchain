@@ -1,15 +1,16 @@
 # golang-blockchain
 
 <pre>
->go run main.go createwallet
+
+**>go run main.go createwallet**
 New address is: 1KdA3MrFGjXHM5pWueiPQRDaryfUXFQxGx
 
 
-> go run main.go createwallet
+**> go run main.go createwallet**
 New address is: 1McyaF8F7KUGUSagUntQfsTWPvUe1Mqiqg
 
 
-> go run main.go createblockchain -address 1McyaF8F7KUGUSagUntQfsTWPvUe1Mqiqg
+**> go run main.go createblockchain -address 1McyaF8F7KUGUSagUntQfsTWPvUe1Mqiqg**
 badger 2020/06/30 17:24:08 INFO: All 0 tables opened in 0s
 Genesis is proved
 badger 2020/06/30 17:24:09 DEBUG: Storing value log head: {Fid:0 Len:42 Offset:623}
@@ -23,7 +24,7 @@ badger 2020/06/30 17:24:09 INFO: Force compaction on level 0 done
 Finished!
 
 
-> go run main.go printchain
+**> go run main.go printchain**
 badger 2020/06/30 17:26:28 INFO: All 1 tables opened in 1ms
 badger 2020/06/30 17:26:28 INFO: Replaying file id: 0 at offset: 665
 badger 2020/06/30 17:26:28 INFO: Replay took: 0s
@@ -44,8 +45,8 @@ PoW: true
 badger 2020/06/30 17:26:28 INFO: Got compaction priority: {level:0 score:1.73 dropPrefix:[]}
 
 
-> go run main.go send -to 1KdA3MrFGjXHM5pWueiPQRDaryfUXFQxGx 
--from 1McyaF8F7KUGUSagUntQfsTWPvUe1Mqiqg -amount 30
+**> go run main.go send -to 1KdA3MrFGjXHM5pWueiPQRDaryfUXFQxGx 
+-from 1McyaF8F7KUGUSagUntQfsTWPvUe1Mqiqg -amount 30**
 badger 2020/06/30 17:28:16 INFO: All 1 tables opened in 1ms
 badger 2020/06/30 17:28:16 INFO: Replaying file id: 0 at offset: 665
 badger 2020/06/30 17:28:16 INFO: Replay took: 0s
@@ -62,7 +63,7 @@ badger 2020/06/30 17:28:16 INFO: Compaction for level: 0 DONE
 badger 2020/06/30 17:28:16 INFO: Force compaction on level 0 done
 
 
-> go run main.go printchain
+**> go run main.go printchain**
 badger 2020/06/30 17:28:26 INFO: All 1 tables opened in 1ms
 badger 2020/06/30 17:28:26 INFO: Replaying file id: 0 at offset: 1522
 badger 2020/06/30 17:28:26 INFO: Replay took: 0s
