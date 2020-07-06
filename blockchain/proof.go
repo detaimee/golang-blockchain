@@ -43,7 +43,7 @@ func (pow *ProofOfWork) InitData(nonce int) []byte {
 			pow.Block.PrevHash,
 			pow.Block.Data,
 			ToHex(int64(nonce)),
-			ToHex(int64(Difficulity)),
+			ToHex(int64(Difficulty)),
 		},
 		[]byte{},
 	)
